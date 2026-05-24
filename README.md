@@ -43,6 +43,8 @@ Show Image
 | Multiple Libraries | Sliders, Animations & More |
 
 ## 📂 Project Structure
+
+```
 Ewebot/
 │
 ├── About-images/
@@ -68,6 +70,7 @@ Ewebot/
 ├── Shop.js
 ├── products.json
 └── README.md
+```
 
 🚀 Getting Started
 
