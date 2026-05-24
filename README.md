@@ -42,7 +42,7 @@ Show Image
 | JavaScript | Interactivity & DOM Handling |
 | Multiple Libraries | Sliders, Animations & More |
 
-📂 Project Structure
+## 📂 Project Structure
 Ewebot/
 │
 ├── About-images/
