@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "name": "Afteroom Plus Chair",
+        "oldPrice": "499",
+        "Price": "399",
+        "Category": "Furniture",
+        "image": [
+            "../Shop-page1/afteroom-plus-chair.jpg.jpeg",
+            "../Shop-page1/afteroom-plus-chair-1.jpg.jpeg",
+            "../Shop-page1/afteroom-plus-chair-2-800x800.jpg.jpeg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bath Pedal Bin",
+        "oldPrice": "899",
+        "Price": "199",
+        "Category": "Decoration",
+        "image": [
+            "../Shop-page1/bath-pedal-bin-1.jpg.jpeg",
+            "../Shop-page1/bath-pedal-bin.jpg.jpeg",
+            "../Shop-page1/bath-pedal-bin-2-800x800.jpg.jpeg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Beat Fat Pendant Black",
+        "oldPrice": "1229",
+        "Price": "729",
+        "Category": "Lighting",
+        "image": [
+            "../Shop-page1/beat-fat-pendant-black.jpg.jpeg",
+            "../Shop-page1/beat-fat-pendant-black-1.jpg.jpeg",
+            "../Shop-page1/beat-fat-pendant-black-2-800x800.jpg.jpeg"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Beat Fat Pendant Light Brass",
+        "oldPrice": "450",
+        "Price": "360",
+        "Category": "Lighting",
+        "image": [
+            "../Shop-page1/beat-fat-pendant-light-brass.jpg.jpeg",
+            "../Shop-page1/beat-fat-pendant-light-brass-1-800x800.jpg.jpeg",
+            "../Shop-page1/beat-fat-pendant-light-brass-2.jpg.jpeg"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Brew Stove Coffee Maker",
+        "oldPrice": "699",
+        "Price": "599",
+        "Category": "Decoration",
+        "image": [
+            "../Shop-page1/brew-stove-coffee-maker.jpg.jpeg",
+            "../Shop-page1/brew-stove-coffee-maker-1.jpg.jpeg",
+            "../Shop-page1/brew-stove-coffee-maker-2.jpg.jpeg"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Co Lounge Chair",
+        "oldPrice": "1099",
+        "Price": "899",
+        "Category": "Furniture",
+        "image": [
+            "../Shop-page1/co-lounge-chair-800x800.jpg.jpeg",
+            "../Shop-page1/co-lounge-chair-3-800x800.jpg.jpeg",
+            "../Shop-page1/co-lounge-chair-0-800x800.jpg.jpeg"
+        ]
+        
+    },
+     {
+        "id": 7,
+        "name": "Copenhagen AD Floor Lamp",
+        "oldPrice": "570",
+        "Price": "455",
+        "Category": "Lighting",
+        "image": [
+            "../Shop-page1/copenhagen-ad-floor-lamp-800x800.jpg.jpeg",
+            "../Shop-page1/copenhagen-ad-floor-lamp-1.jpg.jpeg",
+            "../Shop-page1/copenhagen-ad-floor-lamp-800x800.jpg.jpeg"
+        ]
+        
+    },
+    {
+        "id": 8,
+        "name": "Echasse Bowl",
+        "oldPrice": "379",
+        "Price": "450",
+        "Category": "Accessories",
+        "image": [
+            "../Shop-page1/echasse-bowl.jpg.jpeg",
+            "../Shop-page1/echasse-bowl-1.jpg.jpeg",
+            "../Shop-page1/echasse-bowl-2.jpg.jpeg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Genesis",
+        "oldPrice": "59",
+        "Price": "39",
+        "Category": "Books",
+        "image": [
+            "../Shop-page1/genesis-800x800.jpg.jpeg",
+            "../Shop-page1/genesis-800x800.jpg.jpeg",
+            "../Shop-page1/genesis-800x800.jpg.jpeg"
+        ]
+    }
+    
+   
+]
+

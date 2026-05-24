@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Metrophobic&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.navbar-container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 0 0 5px 0;
+}
+.navbar-img img{
+    width: 105px;
+}
+.home a,
+.blog a{
+    color: black;
+}
+.navbar-button i{
+    color: black;
+}
+.shop{
+    position: relative;
+}
+.shop a{
+    text-decoration: none;
+}
+.shop p{
+    position: absolute;
+    top: 0;
+    right: -15%;
+    background-color: black;
+    width: 17px;
+    height: 17px;
+    color: white;
+    display: flex;
+    padding:  0 0 3px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 13px;
+}
+/* Shop --- Section --- 1 --- Start  */
+.S-s1-container{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 100px 0;
+}
+#productContainer{
+    margin-top: 45px;
+}
+
+.S-s1-content{
+    width: 94%;
+}
+.S-s1-text h1,
+.add-s1-text h1{
+     text-align: center;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 500;
+     font-size: 42px;
+}
+.S-s1-column1 .card1 h1,
+.S-s1-column1 .card2 h1{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+.S-s1-column1 .card1 button{
+    background-color: transparent;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(99, 99, 99);
+    letter-spacing: 0.5px;
+    border: none;
+    display: flex;
+    margin: 3px 10px;
+}
+.S-s1-column1 .card1 hr{
+    color: gray;
+    margin-top: 25px;
+}
+.S-s1-column1 .card2{
+    margin-top: 25px;
+}
+.S-s1-column1 .card2 button{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    gap: 7px;
+    margin: 0 10px 1px 10px;
+    height: 28px;
+}
+.S-s1-column1 .card2 button:nth-child(3) p:nth-child(1){
+    color: rgb(174, 116, 41);
+}
+
+.S-s1-column1 .card2 button:nth-child(4) p:nth-child(1){
+    color: rgb(203, 4, 4);
+}
+.S-s1-column1 .card2 button:nth-child(5) p:nth-child(1){
+    color:rgb(97, 97, 97);
+}
+.S-s1-column1 .card2 button:nth-child(6) p:nth-child(1){
+    color: #4c4a61;
+}
+.S-s1-column1 .card2 button:nth-child(7) p:nth-child(1){
+    color: rgb(206, 180, 147);
+}
+.S-s1-column1 .card2 button:nth-child(8) p:nth-child(1){
+    color: rgb(193, 193, 3);
+}
+.S-s1-column1 .card2 button:nth-child(9) p:nth-child(1){
+    color: white;
+}
+.S-s1-column1 .card2 button p:nth-child(1){
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: -14px;
+}
+.S-s1-column1 .card2 button p:nth-child(2){
+    color: rgb(111, 111, 111);
+    font-family: 'Nunito', sans-serif;
+    
+}
+.home-shop{
+    color: gray;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    word-spacing: 5px;
+
+}
+
+.mySwiper .swiper-pagination-bullet{
+    background-color: gray;
+}
+.S-s1-slider1,
+.S-s1-slider2,
+.S-s1-slider3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20vw;
+}
+.S-s1-slider1{
+    
+    display: flex;
+    justify-content: end;
+}
+.S-s1-slider2{
+    
+     display: flex;
+    justify-content: end;
+}
+.S-s1-slider3{
+    display: flex;
+    justify-content: end;
+}
+.S-s1-slider1:hover .icon,
+.S-s1-slider2:hover .icon,
+.S-s1-slider3:hover .icon{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+.S-s1-slider1 .icon,
+.S-s1-slider2 .icon,
+.S-s1-slider3 .icon{
+    display: flex;
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    height: 30px
+}
+
+.S-s1-slider1 .icon p,
+.S-s1-slider2 .icon p,
+.S-s1-slider3 .icon p{
+    background-color: rgba(0, 0, 0, 0.58);
+    color: white;
+    height: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 4px 10px;
+    margin-top: 27px;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.S-s1-slider1 .icon:hover p,
+.S-s1-slider2 .icon:hover p,
+.S-s1-slider3 .icon:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.S-s1-slider1 .icon button,
+.S-s1-slider2 .icon button,
+.S-s1-slider3 .icon button{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: rgb(199, 198, 198);
+    border-width: 1.5px;
+    font-size: 20px;
+    margin: 0 10px;
+    margin-top: 20px;
+    color: rgb(150, 150, 150);
+}
+.S-s1-column2 .text{
+    margin-top: 15px;
+}
+.S-s1-column2 .text h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.S-s1-column2 .text .pp{
+    display: flex;
+    gap: 4px;
+}
+.S-s1-column2 .text .pp del{
+    color: gray;
+}
+.S-s1-column2 .text .pp p:nth-child(1){
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.S-s1-column2 .text .pp p:nth-child(2){
+    color: gray;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+}
+.card3 img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.S-s1-text button,
+.S-s1-column1 .cross{
+    display: none;
+}
+
+/* Shop --- Section --- 1 --- End  */
+
+
+@media only screen and (max-width: 1200px){
+    .S-s1-column2 .text h1{
+     font-size: 17px
+}
+.S-s1-column2 .text .pp p:nth-child(2){
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 992px){
+    .S-s1-column2 .text h1{
+     font-size: 16px
+}
+.S-s1-column2 .text .pp p:nth-child(2){
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .S-s1-column1{
+        top: -100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 20px 30px 20px;
+        position: absolute;
+        z-index: 9999;
+        background-color: white;
+        box-shadow: rgb(237, 237, 237) 0px 0px 5px 3px;
+        width: 100%;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.8s ease;
+    }
+    .S-s1-column1-js{
+        top: 0;
+        opacity: 1;
+        visibility: visible ;
+    }
+    .S-s1-text{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .S-s1-text button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        border: none;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 120px;
+        height: 40px;
+        border-radius: 2px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 550;
+    }
+    .S-s1-column1 .cross{
+        display: block;
+        display: flex;
+        justify-content: end;
+    }
+    .S-s1-column1 .cross button{
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+    }
+    .cross-rotate{
+        animation: cross 0.5s linear;
+    }
+    @keyframes cross{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .S-s1-text button img{
+        width: 15px;
+    }
+    .S-s1-column1 .card1 button:hover{
+        color: black;
+    }
+    .S-s1-column1 hr{
+        display: none;
+    }
+    .S-s1-column1 .card1{
+        margin: 0;
+    }
+    .S-s1-column1 .card3,
+    .S-s1-column1 .card2{
+        display: none;
+    }
+    .S-s1-slider1,
+.S-s1-slider2,
+.S-s1-slider3{
+    height: 50vw;
+}
+.S-s1-column2{
+    position: relative;
+    z-index: 0;
+}
+
+}
+

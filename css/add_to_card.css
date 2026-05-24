@@ -1,0 +1,174 @@
+.add-s1-container{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.add-s1-content{
+    width: 94.5%;
+}
+
+.add-s1-text h1{
+    font-weight: 600;
+    margin: 0 0 40px 0;
+}
+.add-s1-column1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+.add-s1-column1 .card1,
+.add-s1-column1 .card2,
+.add-s1-column1 .card3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+
+}
+.add-s1-column1 .card1{
+    width: 40%;
+    
+}
+.add-s1-column1 .card1 img{
+    width: 105px;
+}
+.add-s1-column1 .card1 .text{
+    margin-top: 20px;
+}
+.add-s1-column1 .card1 .text h1{
+    font-size: 18.5px;
+    margin: 0 0 3px 0 ;
+}
+
+.add-s1-column1 .card1 .text p{
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+.add-s1-column1 .card2 h1{
+    font-size: 17px;
+    font-family: 'Manrope', sans-serif;
+    color: gray;
+    margin-top: 5px;
+}
+.add-s1-column1 .card2 p{
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.add-s1-column1 .card2 .quantity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.add-s1-column1 .card2 .quantity .plus-minus{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(233, 233, 233);
+    padding: 8px 15px;
+    height: auto;
+}
+
+
+.add-s1-column1 .card2 .quantity .plus-minus button{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    display: flex;
+    align-items: start;
+    margin: 0;
+    font-size: 18px;
+    
+}
+.add-s1-column1 .card2 .quantity .plus-minus p{
+    margin: 2px 0;
+    padding: 0;
+}
+.add-s1-column1 .card3{
+    gap: 12px;
+}
+.add-s1-column1 .card3 p{
+    color:black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 15px;
+}
+.add-s1-column1 .card3 button{
+    background-color: rgb(184, 184, 184);
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.add-s1-column1 .card3 button p{
+    color: white;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.add-s1-column2{
+    background-color: rgb(247, 245, 245);
+    padding: 30px;
+}
+.add-s1-column2 h1{
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    margin: 0 0 25px 0;
+}
+.add-s1-column2 .p,
+.add-s1-column2 .p2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.add-s1-column2 .p p,
+.add-s1-column2 .p2 p{
+    color: gray;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.add-s1-column2 hr{
+    opacity: 0.1;
+}
+.add-s1-column2 .p2 p{
+    color: black;
+    margin: 0 0 25px 0;
+}
+.add-s1-column2 .button button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.add-s1-column2 .button button:hover{
+    background-color: rgb(247, 245, 245);
+    color: black;
+    border-style: groove;
+    border-color: black;
+    border-width: 1.5px;
+}
+@media only screen and (max-width: 992px){
+    .add-s1-column1{
+        flex-direction: column;
+        align-items: start;
+        row-gap: 15px;
+    }
+    .add-s1-column1 .card1,
+    .add-s1-column1 .card2,
+    .add-s1-column1 .card3{
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+}

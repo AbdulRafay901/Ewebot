@@ -1,0 +1,228 @@
+.C-s2-container{
+    padding: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.C-s2-content{
+    width: 92.5%;
+}
+.C-s2-text{
+    text-align: center;
+}
+.C-s2-text p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+.C-s2-text h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.C-s2-text h6{
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18.3px;
+    font-weight: 520;
+    line-height: 27px;
+    padding: 0 120px;
+    margin:  0 0 40px 0;
+}
+.C-s2-content img{
+    width: 100%;
+}
+
+/* Contact ---  Section --- 3 ---  Start   */
+.C-s3-container{
+    display: flex;
+    justify-content: center;
+    padding:  0 0 60px 0;
+}
+.C-s3-content{
+    width: 93.5%;
+}
+.C-s3-column1 .text1 h6{
+    font-size: 14px;
+}
+.C-s3-column1 .text1 h1,
+.C-s3-column2 .text h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 0 15px 0;
+}
+.C-s3-column1 .text1 p,
+.C-s3-column2 .text p{
+    color: rgb(79, 79, 79);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18.5px;
+}
+.C-s3-column1 .text2 h6,
+.C-s3-column1 .text3 h6{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 550;
+    margin: 0 0 4px 0;
+}
+.C-s3-column1 .text2 p,
+.C-s3-column1 .text3 p{
+    color: gray;
+    font-family: 'Rubik', sans-serif;
+}
+.C-s3-column1 .text3 p:nth-child(2){
+    margin: 0;
+}
+.C-s3-column2{
+    background-image: url('../Contact-images/contacts_img_02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding:  45px 40px;
+    border-radius: 10px;
+}
+.C-s3-column2 .text{
+   
+}
+.C-s3-column2 .text h1{
+    font-size: 28px;
+}
+.C-s3-column2 .text p{
+    font-size: 17.5px;
+}
+.s9-column2{
+    margin: 0;
+}
+.s9-column2 .form .name-email input,
+.s9-column2 .form .message input{
+    background-color: transparent;
+}
+.s9-column2 .form .button button{
+    background: linear-gradient(45deg, #6a5af9, #42cd83);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    transition: 0.5s;
+}
+.s9-column2 .form .button button:hover{
+    background: linear-gradient(45deg,  #42cd83,  #6a5af9);
+}
+
+/*  Contact ---  Section --- 3 ---  End   */ 
+
+/*  Contact ---  Section --- 4 ---  Start   */ 
+.C-s4-container{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+.C-s4-content{
+    width: 92.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.C-s4-column1{
+    display: flex;
+    gap: 30px;
+}
+.C-s4-column1 img{
+    width: 45px;
+    height: 40px;
+    margin: 15px 0;
+}
+.C-s4-column1 .text h1{
+   font-family: 'Nunito', sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+}
+.C-s4-column1 .text p{
+    color: gray;
+    font-family: 'Nuntio', sans-serif;
+    font-size: 19px;
+}
+.C-s4-column2{
+    display: flex;
+    align-items: center;
+}
+.C-s4-column2 input{
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    border-color: rgb(219, 219, 219);
+    padding: 8px 20px;
+    width: 100%;
+} 
+.C-s4-column2 input:focus{
+    outline: none;
+}
+.C-s4-column2 button{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    background-image: linear-gradient(96deg, #9289F1 0%, #6254E7 51%, #9289F1 100%);
+    color: white;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.C-s4-column2 button:hover{
+    background-image: linear-gradient(96deg, #9289F1 0%, #9289F1  51%, #6254E7  100%);
+}
+/*  Contact ---  Section --- 4 ---  End   */ 
+
+@media only screen and (max-width: 1200px){
+  
+.C-s4-column1 .text h1{
+   font-size: 24px;
+}
+.C-s4-column1 .text p{
+    font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 992px){
+    .C-s3-column1 .text1 br{
+        display: none;
+    }
+    .C-s3-column1 .text1 p{
+        font-size: 17px;
+    }
+    .C-s4-column1 .text h1{
+        font-size: 20px;
+    }
+    .C-s4-column1 .text p{
+        font-size: 15px;
+    }
+    .C-s4-content{
+        gap: 30px;
+    }
+    .C-s4-column2 button{
+        width: 230px;
+    }
+    .C-s2-text br{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .C-s4-content{
+        flex-direction: column;
+    }
+    .C-s4-column2 button{
+        width: 200px;
+        height: 45px;
+    }
+    .C-s2-text h6{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .C-s3-column1,
+    .C-s3-column2{
+        text-align: center;
+    }
+}
