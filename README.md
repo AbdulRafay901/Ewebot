@@ -15,17 +15,15 @@ A modern, fully responsive hybrid website combining E-Commerce functionality wit
 - Cart Management System
 - Product Detail View
 
-📢 Digital Marketing
-
-## Services Section
+##  📢 Digital Marketing
+- Services Section
 - Stats & Achievements
 - Portfolio / Work Showcase
 - Team Section
 - Testimonials
 
-🌟 General
-
-## Fully Responsive Design
+## 🌟 General
+- Fully Responsive Design
 - Clean & Modern UI
 - Fast & Lightweight
 - Smooth Animations
