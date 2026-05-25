@@ -2,34 +2,34 @@
 A modern, fully responsive hybrid website combining E-Commerce functionality with a Digital Marketing agency experience — built using HTML, CSS, Bootstrap, and JavaScript with multiple libraries for a smooth and professional user experience.
 
 🌐 Live Demo
-🔗 [Add Your Netlify URL Here]
+🔗 https://ewebots.netlify.app/
 
 📸 Preview
-Show Image
+![Ewebot Preview](./images/preview.png)
 
 ✨ Features
 
-🛒 E-Commerce
-🛍️ Product Listings & Cards
-🛒 Add to Cart Functionality
-💳 Cart Management System
-📦 Product Detail View
+E-Commerce
+Product Listings & Cards
+Add to Cart Functionality
+Cart Management System
+Product Detail View
 
 📢 Digital Marketing
 
-🎯 Services Section
-📊 Stats & Achievements
-💼 Portfolio / Work Showcase
-👥 Team Section
-💬 Testimonials
+Services Section
+Stats & Achievements
+Portfolio / Work Showcase
+Team Section
+Testimonials
 
 🌟 General
 
-📱 Fully Responsive Design
-🎨 Clean & Modern UI
-⚡ Fast & Lightweight
-🌙 Smooth Animations
-📩 Contact Form
+Fully Responsive Design
+Clean & Modern UI
+Fast & Lightweight
+Smooth Animations
+Contact Form
 
 
 ## 🛠️ Tech Stack
