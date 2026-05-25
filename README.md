@@ -9,27 +9,27 @@ A modern, fully responsive hybrid website combining E-Commerce functionality wit
 
 ✨ Features
 
-E-Commerce
-Product Listings & Cards
-Add to Cart Functionality
-Cart Management System
-Product Detail View
+## E-Commerce
+- Product Listings & Cards
+- Add to Cart Functionality
+- Cart Management System
+- Product Detail View
 
 📢 Digital Marketing
 
-Services Section
-Stats & Achievements
-Portfolio / Work Showcase
-Team Section
-Testimonials
+## Services Section
+- Stats & Achievements
+- Portfolio / Work Showcase
+- Team Section
+- Testimonials
 
 🌟 General
 
-Fully Responsive Design
-Clean & Modern UI
-Fast & Lightweight
-Smooth Animations
-Contact Form
+## Fully Responsive Design
+- Clean & Modern UI
+- Fast & Lightweight
+- Smooth Animations
+- Contact Form
 
 
 ## 🛠️ Tech Stack
