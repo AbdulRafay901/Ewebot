@@ -10,12 +10,14 @@ A modern, fully responsive hybrid website combining E-Commerce functionality wit
 ✨ Features
 
 ## E-Commerce
+
 - Product Listings & Cards
 - Add to Cart Functionality
 - Cart Management System
 - Product Detail View
 
-##  📢 Digital Marketing
+## 📢 Digital Marketing
+
 - Services Section
 - Stats & Achievements
 - Portfolio / Work Showcase
@@ -23,22 +25,22 @@ A modern, fully responsive hybrid website combining E-Commerce functionality wit
 - Testimonials
 
 ## 🌟 General
+
 - Fully Responsive Design
 - Clean & Modern UI
 - Fast & Lightweight
 - Smooth Animations
 - Contact Form
 
-
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|:---|:---|
-| HTML5 | Page Structure & Semantics |
-| CSS3 | Custom Styling & Animations |
-| Bootstrap 5 | Responsive Grid & Components |
-| JavaScript | Interactivity & DOM Handling |
-| Multiple Libraries | Sliders, Animations & More |
+| Technology         | Purpose                      |
+| :----------------- | :--------------------------- |
+| HTML5              | Page Structure & Semantics   |
+| CSS3               | Custom Styling & Animations  |
+| Bootstrap 5        | Responsive Grid & Components |
+| JavaScript         | Interactivity & DOM Handling |
+| Multiple Libraries | Sliders, Animations & More   |
 
 ## 📂 Project Structure
 
@@ -73,15 +75,15 @@ Ewebot/
 🚀 Getting Started
 
 1. Clone the Repository
-bashgit clone https://github.com/AbdulRafay901/Ewebot.git
-cd Ewebot
+   bashgit clone https://github.com/AbdulRafay901/Ewebot.git
+   cd Ewebot
 
 2. Open in Browser
-bash# Simply open index.html in your browser
+   bash# Simply open index.html in your browser
+
 # Or use VS Code Live Server for hot reload
 
 No build tools or installation required — All dependencies loaded via CDN ✅
-
 
 📦 Dependencies
 All dependencies are loaded via CDN — no installation needed!
@@ -90,7 +92,7 @@ Bootstrap 5 — Responsive Layout
 Swiper.js — Touch Sliders
 AOS — Scroll Animations
 Font Awesome — Icons
-
+Remix — Icons
 
 🤝 Contributing
 Pull requests are welcome!
@@ -100,6 +102,5 @@ For major changes, please open an issue first to discuss what you'd like to chan
 Abdul Rafay
 
 🐙 GitHub: @AbdulRafay901
-
 
 Made with ❤️ using HTML, CSS, Bootstrap & JavaScript
