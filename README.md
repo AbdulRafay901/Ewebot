@@ -1,10 +1,12 @@
-🌐 Ewebot — Digital Marketing & E-Commerce Website
+## 🌐 Ewebot — Digital Marketing & E-Commerce Website
+
 A modern, fully responsive hybrid website combining E-Commerce functionality with a Digital Marketing agency experience — built using HTML, CSS, Bootstrap, and JavaScript with multiple libraries for a smooth and professional user experience.
 
 🌐 Live Demo
 🔗 https://ewebots.netlify.app/
 
 📸 Preview
+
 ![Ewebot Preview](./images/preview.png)
 
 ✨ Features
@@ -88,11 +90,11 @@ No build tools or installation required — All dependencies loaded via CDN ✅
 📦 Dependencies
 All dependencies are loaded via CDN — no installation needed!
 
-Bootstrap 5 — Responsive Layout
-Swiper.js — Touch Sliders
-AOS — Scroll Animations
-Font Awesome — Icons
-Remix — Icons
+- Bootstrap 5 — Responsive Layout
+- Swiper.js — Touch Sliders
+- AOS — Scroll Animations
+- Font Awesome — Icons
+- Remix — Icons
 
 🤝 Contributing
 Pull requests are welcome!
